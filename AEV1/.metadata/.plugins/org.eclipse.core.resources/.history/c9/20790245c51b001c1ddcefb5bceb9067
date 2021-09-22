@@ -1,0 +1,13 @@
+package es.florida.app;
+
+public class APP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] nombres = new String[] { "Ruben", "Adri", "Jose", "Victor", "Pablo", "Nestor" };
+		for (int i = 0; i < nombres.length; i++) {
+			System.out.print("Hola " + nombres[i]);
+		}
+	}
+
+}
